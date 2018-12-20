@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+      <link rel="imagessheet" href="images/gg.webm">
+  </head>
+  <body>
+    <ul class="header">
+      <li><a href="index.html">Index</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a class="active" href="projects.html">Projects</a></li>
+    </ul>
+    <h1>Project Showcase</h1>
+    <h2>Python Game</h2>
+   
+    <ol>
+      <li> <iframe src="https://drive.google.com/file/d/10Nb0Rl0SrrA0sMlolLwJ935bO2GvLDvD/view" width="640" height="480"></iframe></li>
+       <p>          
+      <li>The programming language that is shown in this video is python 2.7.10
+      The purpose of the program is to use all of the python coding language 
+      knowledge we know in order to create a simple game and the purpose is 
+      also to be able to play tic tac toe on python. The video illustrates how
+      the code works when two players play two different games of tic tac toe,
+      one game illustrates a player win and the second game illustrates a tie.
+      The first game illustrates both players playing and at the end player x
+      gets three in a row and when that happens the message “player x wins!”.
+      The game is then restarted and the two players proceed with the second
+      game, eventually the game ends in a tie and the program displays “Tie!”
+      when neither player x or o wins.
+ </li>
+     ` </p>
+        <p>
+      <li>The incremental and iterative process that i use to solve errors
+      is first finding where the problem in the code is, this is done by 
+      placincing print statements every few lines of code and when the program
+      is run the last print statement to be displayed shows where the error in
+      the code is happening, and if a statement is not printing that could be 
+      because the lines of code before that did not function properly. Once the
+      problem in the code was found decide what the line of code should be doing,
+      is it supposed to be remembering something? Is it supposed to be a loop that
+      has to only run if a condition is met? Is it supposed to use player input?
+     
+      Once you decide what the line of code is intended to do try the associated
+      commands, for example to remember something create a variable/list. For
+      creating a loop use a while statement and for player input use raw_input()
+      in order to allow the player to put their own input in. Specifically in our
+      own code we had to figure out how we were going to keep track of which 
+      players turn it was, first we decided to just alternate the turns between
+      players, everytime the board was printed the players turn would switch. 
+      We decided this would not work because if the player chose a spot that was
+      already taken it would move on to the next players turn without allowing 
+      the player to do their proper turn. Through the iterative process we decided
+      the code needed to remember which players turn it was, we decided to create
+      a variable called count that whenever the tic tac toe board was printed the
+      count would go up by one and when the count was divisible by 2 it was player
+      o’s turn and when they put a wrong input the board would print again and
+      take 1 away from count. This solved our problem of deciding whose turn it
+      was. 
+      </li>
+        </p>
+    
+    
+  </body>
+</html>
+
